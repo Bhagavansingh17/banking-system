@@ -42,22 +42,21 @@ This project simulates real-world banking operations such as account creation, d
 
 ---
 
-## 📂 Project Structure
+## 📁 Project Structure
+
+```text
 com.bhagavan.bankingsystem
 ├── model
-│ ├── Account.java
-│ ├── Transaction.java
-│
+│   ├── Account.java
+│   └── Transaction.java
 ├── service
-│ ├── BankService.java
-│
+│   └── BankService.java
 ├── exception
-│
+│   └── InsufficientBalanceException.java
 ├── util
-│ ├── IdGenerator.java
-│
+│   └── IdGenerator.java
 └── Main.java
-
+```
 ---
 
 ## 🔐 Security Layer

@@ -4,12 +4,20 @@ public class Account {
     private final long accountNumber;
     private final String holderName;
     private double balance;
+    private final String pin;
 
-    public Account(long accountNumber, String holderName, double initialBalance) {
+    public Account(long accountNumber, String holderName, double initialBalance, String pin) {
         this.accountNumber = accountNumber;
         this.holderName = holderName;
         this.balance = initialBalance;
+        this.pin = pin;
     }
+
+
+    public boolean isPinValid(String inputPin) {
+        return pin.equals(inputPin);
+    }
+
 
     public long getAccountNumber() {
         return accountNumber;

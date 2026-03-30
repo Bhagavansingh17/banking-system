@@ -87,6 +87,24 @@ com.bhagavan.bankingsystem
 
 ---
 
+## 📷 Sample Execution (Console Output)
+
+This demonstrates real-time execution of the banking system including account creation and transaction operations.
+
+### 🔹 Create Account
+- User creates account with name, balance, and PIN
+- System generates unique account number
+
+![Create Account](images/create-account.png)
+
+### 🔹 Transaction / Deposit Operation
+- User authenticates using account number + PIN
+- Performs deposit and views updated transaction
+
+![Transaction](images/transactions.png)
+
+---
+
 ## 🎯 Purpose
 
 This project is part of a structured roadmap to build production-level fintech backend systems targeting product-based companies.
